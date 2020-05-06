@@ -1,0 +1,97 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="8">Facebook test automation suite</th></tr>
+<tr><td><a href="#t0">Facebook test cases</a></td><td class="num">3</td><td class="num">0</td><td class="num">0</td><td class="num attn">5</td><td class="num">204,672</td><td></td><td></td></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Facebook test automation suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Facebook test cases &#8212; failed</th></tr><tr class="failedeven"><td rowspan="2">com.qa.tests.Homepagetest</td><td><a href="#m0">eventnavigate</a></td><td rowspan="1">1588676650406</td><td rowspan="1">29024</td></tr><tr class="failedeven"><td><a href="#m1">languagenavigate</a></td><td rowspan="1">1588676626603</td><td rowspan="1">12258</td></tr><tr class="failedodd"><td rowspan="3">com.qa.tests.SignupTest</td><td><a href="#m2">createnewAccount</a></td><td rowspan="3">1588676691781</td><td rowspan="3">1046</td></tr><tr class="failedodd"><td><a href="#m3">createnewAccount</a></td></tr><tr class="failedodd"><td><a href="#m4">createnewAccount</a></td></tr><tr><th colspan="4">Facebook test cases &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">com.qa.tests.Homepagetest</td><td><a href="#m5">verifyFBprofilename</a></td><td rowspan="1">1588676579962</td><td rowspan="1">6732</td></tr><tr class="passedodd"><td rowspan="2">com.qa.tests.Loginpagetest</td><td><a href="#m6">loginfbtest</a></td><td rowspan="1">1588676546796</td><td rowspan="1">23060</td></tr><tr class="passedodd"><td><a href="#m7">loginpagetitletest</a></td><td rowspan="1">1588676531298</td><td rowspan="1">17</td></tr></tbody>
+</table>
+<h2>Facebook test cases</h2><h3 id="m0">com.qa.tests.Homepagetest#eventnavigate</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//ul[@class=&apos;_bui _3-96&apos;]//div[text()=&apos;Events&apos; and @dir=&apos;ltr&apos;]&quot;}
+  (Session info: chrome=81.0.4044.129)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: &apos;4.0.0-alpha-5&apos;, revision: &apos;b3a0d621cc&apos;
+System info: host: &apos;LAPTOP-GVQAM2BC&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;13&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.129, chrome: {chromedriverVersion: 81.0.4044.69 (6813546031a4b..., userDataDir: C:\windows\TEMP\scoped_dir2...}, goog:chromeOptions: {debuggerAddress: localhost:60441}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 12163cab961f052ba1daa85982a0e8fa
+*** Element info: {Using=xpath, value=//ul[@class=&apos;_bui _3-96&apos;]//div[text()=&apos;Events&apos; and @dir=&apos;ltr&apos;]}
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:196)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:129)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:161)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:582)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:333)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:451)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:394)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:325)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:106)
+	at com.sun.proxy.$Proxy11.findElement(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:195)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+	at com.sun.proxy.$Proxy15.click(Unknown Source)
+	at com.qa.pages.Homepage.verifyEventnavigate(Homepage.java:35)
+	at com.qa.tests.Homepagetest.eventnavigate(Homepagetest.java:55)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1507)
+... Removed 40 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">com.qa.tests.Homepagetest#languagenavigate</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;a dir=&quot;ltr&quot; href=&quot;/intl/save_locale/dialog/?loc=kn_IN&amp;amp;href=https%3A%2F%2Fwww.facebook.com%2F&amp;amp;ls_ref=www_card_selector&quot; lang=&quot;kn&quot; rel=&quot;dialog&quot; title=&quot;Kannada&quot; class=&quot;_5f4c&quot; role=&quot;button&quot;&gt;...&lt;/a&gt; is not clickable at point (818, 391). Other element would receive the click: &lt;div class=&quot;_3ixn&quot;&gt;&lt;/div&gt;
+  (Session info: chrome=81.0.4044.129)
+Build info: version: &apos;4.0.0-alpha-5&apos;, revision: &apos;b3a0d621cc&apos;
+System info: host: &apos;LAPTOP-GVQAM2BC&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;13&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.129, chrome: {chromedriverVersion: 81.0.4044.69 (6813546031a4b..., userDataDir: C:\windows\TEMP\scoped_dir7...}, goog:chromeOptions: {debuggerAddress: localhost:60401}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: bdc9d9ec171f9df02b3428035cf68c18
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:196)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:129)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:161)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:582)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:316)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:85)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:405)
+	at com.sun.proxy.$Proxy16.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:418)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)
+	at com.sun.proxy.$Proxy15.click(Unknown Source)
+	at com.qa.pages.Homepage.clicklanguageTitle(Homepage.java:31)
+	at com.qa.tests.Homepagetest.languagenavigate(Homepagetest.java:48)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1507)
+... Removed 44 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">com.qa.tests.SignupTest#createnewAccount</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th><th>Parameter #7</th></tr><tr class="param stripe"><td>Navaneeth</td><td>Bhushan</td><td>nbfsa@gmail.com</td><td>bxvsx</td><td>28.0</td><td>April</td><td>1994.0</td></tr><tr><th colspan="7">Exception</th></tr><tr><td colspan="7"><div class="stacktrace">java.lang.NumberFormatException: For input string: &quot;28.0&quot;
+	at java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:68)
+	at java.base/java.lang.Integer.parseInt(Integer.java:658)
+	at java.base/java.lang.Integer.parseInt(Integer.java:776)
+	at com.qa.pages.Signup.newaccount(Signup.java:38)
+	at com.qa.tests.SignupTest.createnewAccount(SignupTest.java:41)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1507)
+... Removed 31 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">com.qa.tests.SignupTest#createnewAccount</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th><th>Parameter #7</th></tr><tr class="param stripe"><td>Sujatha</td><td>Bhushan</td><td>sbyuas@gmail.com</td><td>nsbs</td><td>26.0</td><td>January</td><td>1969.0</td></tr><tr><th colspan="7">Exception</th></tr><tr><td colspan="7"><div class="stacktrace">java.lang.NumberFormatException: For input string: &quot;26.0&quot;
+	at java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:68)
+	at java.base/java.lang.Integer.parseInt(Integer.java:658)
+	at java.base/java.lang.Integer.parseInt(Integer.java:776)
+	at com.qa.pages.Signup.newaccount(Signup.java:38)
+	at com.qa.tests.SignupTest.createnewAccount(SignupTest.java:41)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1507)
+... Removed 31 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">com.qa.tests.SignupTest#createnewAccount</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th><th>Parameter #7</th></tr><tr class="param stripe"><td>Vikram</td><td>Bhushan</td><td>vbasd@gmail.com</td><td>sbbnvn</td><td>10.0</td><td>May</td><td>2000.0</td></tr><tr><th colspan="7">Exception</th></tr><tr><td colspan="7"><div class="stacktrace">java.lang.NumberFormatException: For input string: &quot;10.0&quot;
+	at java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:68)
+	at java.base/java.lang.Integer.parseInt(Integer.java:658)
+	at java.base/java.lang.Integer.parseInt(Integer.java:776)
+	at com.qa.pages.Signup.newaccount(Signup.java:38)
+	at com.qa.tests.SignupTest.createnewAccount(SignupTest.java:41)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1507)
+... Removed 31 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">com.qa.tests.Homepagetest#verifyFBprofilename</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">com.qa.tests.Loginpagetest#loginfbtest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">com.qa.tests.Loginpagetest#loginpagetitletest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>

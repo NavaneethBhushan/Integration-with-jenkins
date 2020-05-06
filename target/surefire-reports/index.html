@@ -1,0 +1,575 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 5 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Facebook_test_automation_suite" class="navigator-link">
+              <span class="suite-name border-failed">Facebook test automation suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Facebook_test_automation_suite" class="navigator-link ">
+                    <span>C:\Users\Navaneeth Bhushan\eclipse-workspace\POMTestautomation\src\main\resources\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Facebook_test_automation_suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Facebook_test_automation_suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Facebook_test_automation_suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Facebook_test_automation_suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Facebook_test_automation_suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Facebook_test_automation_suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">8 methods, 5 failed,   3 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Facebook_test_automation_suite" class="hide-methods failed suite-Facebook_test_automation_suite"> (hide)</a> <!-- hide-methods failed suite-Facebook_test_automation_suite -->
+                      <a href="#" panel-name="suite-Facebook_test_automation_suite" class="show-methods failed suite-Facebook_test_automation_suite"> (show)</a> <!-- show-methods failed suite-Facebook_test_automation_suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Facebook_test_automation_suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Facebook_test_automation_suite" title="com.qa.tests.SignupTest" class="method navigator-link" hash-for-method="createnewAccount(Navaneeth, Bhushan, nbfsa@gmail.com, bxvsx, 28.0, April, 1994.0)">createnewAccount(Navaneeth, Bhushan, nbfsa@gmail.com, bxvsx, 28.0, April, 1994.0)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Facebook_test_automation_suite" title="com.qa.tests.SignupTest" class="method navigator-link" hash-for-method="createnewAccount(Sujatha, Bhushan, sbyuas@gmail.com, nsbs, 26.0, January, 1969.0)">createnewAccount(Sujatha, Bhushan, sbyuas@gmail.com, nsbs, 26.0, January, 1969.0)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Facebook_test_automation_suite" title="com.qa.tests.SignupTest" class="method navigator-link" hash-for-method="createnewAccount(Vikram, Bhushan, vbasd@gmail.com, sbbnvn, 10.0, May, 2000.0)">createnewAccount(Vikram, Bhushan, vbasd@gmail.com, sbbnvn, 10.0, May, 2000.0)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Facebook_test_automation_suite" title="com.qa.tests.Homepagetest" class="method navigator-link" hash-for-method="eventnavigate">eventnavigate</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Facebook_test_automation_suite" title="com.qa.tests.Homepagetest" class="method navigator-link" hash-for-method="languagenavigate">languagenavigate</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Facebook_test_automation_suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Facebook_test_automation_suite" class="hide-methods passed suite-Facebook_test_automation_suite"> (hide)</a> <!-- hide-methods passed suite-Facebook_test_automation_suite -->
+                      <a href="#" panel-name="suite-Facebook_test_automation_suite" class="show-methods passed suite-Facebook_test_automation_suite"> (show)</a> <!-- show-methods passed suite-Facebook_test_automation_suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Facebook_test_automation_suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Facebook_test_automation_suite" title="com.qa.tests.Loginpagetest" class="method navigator-link" hash-for-method="loginfbtest">loginfbtest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Facebook_test_automation_suite" title="com.qa.tests.Loginpagetest" class="method navigator-link" hash-for-method="loginpagetitletest">loginpagetitletest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Facebook_test_automation_suite" title="com.qa.tests.Homepagetest" class="method navigator-link" hash-for-method="verifyFBprofilename">verifyFBprofilename</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Facebook_test_automation_suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Facebook_test_automation_suite" class="panel Facebook_test_automation_suite">
+          <div class="suite-Facebook_test_automation_suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.qa.tests.SignupTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="createnewAccount(Navaneeth, Bhushan, nbfsa@gmail.com, bxvsx, 28.0, April, 1994.0)">
+                  </a> <!-- createnewAccount(Navaneeth, Bhushan, nbfsa@gmail.com, bxvsx, 28.0, April, 1994.0) -->
+                  <span class="method-name">createnewAccount</span>
+                  <span class="parameters">(Navaneeth, Bhushan, nbfsa@gmail.com, bxvsx, 28.0, April, 1994.0)</span>
+                  <div class="stack-trace">java.lang.NumberFormatException: For input string: &quot;28.0&quot;
+	at java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:68)
+	at java.base/java.lang.Integer.parseInt(Integer.java:658)
+	at java.base/java.lang.Integer.parseInt(Integer.java:776)
+	at com.qa.pages.Signup.newaccount(Signup.java:38)
+	at com.qa.tests.SignupTest.createnewAccount(SignupTest.java:41)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1507)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="createnewAccount(Sujatha, Bhushan, sbyuas@gmail.com, nsbs, 26.0, January, 1969.0)">
+                  </a> <!-- createnewAccount(Sujatha, Bhushan, sbyuas@gmail.com, nsbs, 26.0, January, 1969.0) -->
+                  <span class="method-name">createnewAccount</span>
+                  <span class="parameters">(Sujatha, Bhushan, sbyuas@gmail.com, nsbs, 26.0, January, 1969.0)</span>
+                  <div class="stack-trace">java.lang.NumberFormatException: For input string: &quot;26.0&quot;
+	at java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:68)
+	at java.base/java.lang.Integer.parseInt(Integer.java:658)
+	at java.base/java.lang.Integer.parseInt(Integer.java:776)
+	at com.qa.pages.Signup.newaccount(Signup.java:38)
+	at com.qa.tests.SignupTest.createnewAccount(SignupTest.java:41)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1507)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="createnewAccount(Vikram, Bhushan, vbasd@gmail.com, sbbnvn, 10.0, May, 2000.0)">
+                  </a> <!-- createnewAccount(Vikram, Bhushan, vbasd@gmail.com, sbbnvn, 10.0, May, 2000.0) -->
+                  <span class="method-name">createnewAccount</span>
+                  <span class="parameters">(Vikram, Bhushan, vbasd@gmail.com, sbbnvn, 10.0, May, 2000.0)</span>
+                  <div class="stack-trace">java.lang.NumberFormatException: For input string: &quot;10.0&quot;
+	at java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:68)
+	at java.base/java.lang.Integer.parseInt(Integer.java:658)
+	at java.base/java.lang.Integer.parseInt(Integer.java:776)
+	at com.qa.pages.Signup.newaccount(Signup.java:38)
+	at com.qa.tests.SignupTest.createnewAccount(SignupTest.java:41)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1507)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Facebook_test_automation_suite-class-failed -->
+          <div class="suite-Facebook_test_automation_suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.qa.tests.Homepagetest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="eventnavigate">
+                  </a> <!-- eventnavigate -->
+                  <span class="method-name">eventnavigate</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//ul[@class=&apos;_bui _3-96&apos;]//div[text()=&apos;Events&apos; and @dir=&apos;ltr&apos;]&quot;}
+  (Session info: chrome=81.0.4044.129)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: &apos;4.0.0-alpha-5&apos;, revision: &apos;b3a0d621cc&apos;
+System info: host: &apos;LAPTOP-GVQAM2BC&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;13&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.129, chrome: {chromedriverVersion: 81.0.4044.69 (6813546031a4b..., userDataDir: C:\windows\TEMP\scoped_dir2...}, goog:chromeOptions: {debuggerAddress: localhost:60441}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 12163cab961f052ba1daa85982a0e8fa
+*** Element info: {Using=xpath, value=//ul[@class=&apos;_bui _3-96&apos;]//div[text()=&apos;Events&apos; and @dir=&apos;ltr&apos;]}
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:196)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:129)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:161)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:582)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:333)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:451)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:394)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:325)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:106)
+	at com.sun.proxy.$Proxy11.findElement(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:195)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+	at com.sun.proxy.$Proxy15.click(Unknown Source)
+	at com.qa.pages.Homepage.verifyEventnavigate(Homepage.java:35)
+	at com.qa.tests.Homepagetest.eventnavigate(Homepagetest.java:55)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1507)
+... Removed 40 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="languagenavigate">
+                  </a> <!-- languagenavigate -->
+                  <span class="method-name">languagenavigate</span>
+                  <div class="stack-trace">org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;a dir=&quot;ltr&quot; href=&quot;/intl/save_locale/dialog/?loc=kn_IN&amp;amp;href=https%3A%2F%2Fwww.facebook.com%2F&amp;amp;ls_ref=www_card_selector&quot; lang=&quot;kn&quot; rel=&quot;dialog&quot; title=&quot;Kannada&quot; class=&quot;_5f4c&quot; role=&quot;button&quot;&gt;...&lt;/a&gt; is not clickable at point (818, 391). Other element would receive the click: &lt;div class=&quot;_3ixn&quot;&gt;&lt;/div&gt;
+  (Session info: chrome=81.0.4044.129)
+Build info: version: &apos;4.0.0-alpha-5&apos;, revision: &apos;b3a0d621cc&apos;
+System info: host: &apos;LAPTOP-GVQAM2BC&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;13&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.129, chrome: {chromedriverVersion: 81.0.4044.69 (6813546031a4b..., userDataDir: C:\windows\TEMP\scoped_dir7...}, goog:chromeOptions: {debuggerAddress: localhost:60401}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: bdc9d9ec171f9df02b3428035cf68c18
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:196)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:129)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:161)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:582)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:316)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:85)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:405)
+	at com.sun.proxy.$Proxy16.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:418)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)
+	at com.sun.proxy.$Proxy15.click(Unknown Source)
+	at com.qa.pages.Homepage.clicklanguageTitle(Homepage.java:31)
+	at com.qa.tests.Homepagetest.languagenavigate(Homepagetest.java:48)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1507)
+... Removed 44 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Facebook_test_automation_suite-class-failed -->
+          <div class="suite-Facebook_test_automation_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.qa.tests.Loginpagetest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginfbtest">
+                  </a> <!-- loginfbtest -->
+                  <span class="method-name">loginfbtest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginpagetitletest">
+                  </a> <!-- loginpagetitletest -->
+                  <span class="method-name">loginpagetitletest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Facebook_test_automation_suite-class-passed -->
+          <div class="suite-Facebook_test_automation_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.qa.tests.Homepagetest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyFBprofilename">
+                  </a> <!-- verifyFBprofilename -->
+                  <span class="method-name">verifyFBprofilename</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Facebook_test_automation_suite-class-passed -->
+        </div> <!-- panel Facebook_test_automation_suite -->
+        <div panel-name="test-xml-Facebook_test_automation_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\Navaneeth Bhushan\eclipse-workspace\POMTestautomation\src\main\resources\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Facebook test automation suite&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;com.qa.ExtentReportListener.ExtentReporterNG&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Facebook test cases&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.qa.tests.Loginpagetest&quot;/&gt;
+      &lt;class name=&quot;com.qa.tests.Homepagetest&quot;/&gt;
+      &lt;class name=&quot;com.qa.tests.SignupTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Facebook test cases --&gt;
+&lt;/suite&gt; &lt;!-- Facebook test automation suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Facebook_test_automation_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Facebook test automation suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Facebook test cases (3 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Facebook_test_automation_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Facebook test automation suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Facebook_test_automation_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Facebook test automation suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Facebook_test_automation_suite');
+function tableData_Facebook_test_automation_suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(8);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'eventnavigate')
+data.setCell(0, 2, 'com.qa.tests.Homepagetest')
+data.setCell(0, 3, 29024);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'loginfbtest')
+data.setCell(1, 2, 'com.qa.tests.Loginpagetest')
+data.setCell(1, 3, 23060);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'languagenavigate')
+data.setCell(2, 2, 'com.qa.tests.Homepagetest')
+data.setCell(2, 3, 12258);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'verifyFBprofilename')
+data.setCell(3, 2, 'com.qa.tests.Homepagetest')
+data.setCell(3, 3, 6732);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'createnewAccount')
+data.setCell(4, 2, 'com.qa.tests.SignupTest')
+data.setCell(4, 3, 1046);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'createnewAccount')
+data.setCell(5, 2, 'com.qa.tests.SignupTest')
+data.setCell(5, 3, 937);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'createnewAccount')
+data.setCell(6, 2, 'com.qa.tests.SignupTest')
+data.setCell(6, 3, 763);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'loginpagetitletest')
+data.setCell(7, 2, 'com.qa.tests.Loginpagetest')
+data.setCell(7, 3, 17);
+window.suiteTableData['Facebook_test_automation_suite']= { tableData: data, tableDiv: 'times-div-Facebook_test_automation_suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <div id="times-div-Facebook_test_automation_suite">
+              </div> <!-- times-div-Facebook_test_automation_suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Facebook_test_automation_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Facebook test automation suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Facebook_test_automation_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Facebook_test_automation_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qa.tests.Loginpagetest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">loginpagetitletest</span>
+                <span class="method-start">14630 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">14651 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">15787 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">loginfbtest</span>
+                <span class="method-start">30128 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">53188 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qa.tests.Homepagetest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">53869 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyFBprofilename</span>
+                <span class="method-start">63294 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">70027 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">70698 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">languagenavigate</span>
+                <span class="method-start">109935 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">122207 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">122899 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">eventnavigate</span>
+                <span class="method-start">133738 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">162763 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qa.tests.SignupTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">164226 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">createnewAccount(Navaneeth, Bhushan, nbfsa@gmail.com, bxvsx, 28.0, April, 1994.0)</span>
+                <span class="method-start">175113 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">176161 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">176805 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">createnewAccount(Vikram, Bhushan, vbasd@gmail.com, sbbnvn, 10.0, May, 2000.0)</span>
+                <span class="method-start">187485 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">188423 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">189725 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">createnewAccount(Sujatha, Bhushan, sbyuas@gmail.com, nsbs, 26.0, January, 1969.0)</span>
+                <span class="method-start">203220 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">203984 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

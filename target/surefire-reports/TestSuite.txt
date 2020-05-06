@@ -1,0 +1,40 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 8, Failures: 5, Errors: 0, Skipped: 0, Time elapsed: 206.065 s <<< FAILURE! - in TestSuite
+languagenavigate(com.qa.tests.Homepagetest)  Time elapsed: 12.273 s  <<< FAILURE!
+org.openqa.selenium.ElementClickInterceptedException: 
+element click intercepted: Element <a dir="ltr" href="/intl/save_locale/dialog/?loc=kn_IN&amp;href=https%3A%2F%2Fwww.facebook.com%2F&amp;ls_ref=www_card_selector" lang="kn" rel="dialog" title="Kannada" class="_5f4c" role="button">...</a> is not clickable at point (818, 391). Other element would receive the click: <div class="_3ixn"></div>
+  (Session info: chrome=81.0.4044.129)
+Build info: version: '4.0.0-alpha-5', revision: 'b3a0d621cc'
+System info: host: 'LAPTOP-GVQAM2BC', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '13'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.129, chrome: {chromedriverVersion: 81.0.4044.69 (6813546031a4b..., userDataDir: C:\windows\TEMP\scoped_dir7...}, goog:chromeOptions: {debuggerAddress: localhost:60401}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: bdc9d9ec171f9df02b3428035cf68c18
+	at com.qa.tests.Homepagetest.languagenavigate(Homepagetest.java:48)
+
+eventnavigate(com.qa.tests.Homepagetest)  Time elapsed: 29.026 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//ul[@class='_bui _3-96']//div[text()='Events' and @dir='ltr']"}
+  (Session info: chrome=81.0.4044.129)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.0.0-alpha-5', revision: 'b3a0d621cc'
+System info: host: 'LAPTOP-GVQAM2BC', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '13'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.129, chrome: {chromedriverVersion: 81.0.4044.69 (6813546031a4b..., userDataDir: C:\windows\TEMP\scoped_dir2...}, goog:chromeOptions: {debuggerAddress: localhost:60441}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 12163cab961f052ba1daa85982a0e8fa
+*** Element info: {Using=xpath, value=//ul[@class='_bui _3-96']//div[text()='Events' and @dir='ltr']}
+	at com.qa.tests.Homepagetest.eventnavigate(Homepagetest.java:55)
+
+createnewAccount(com.qa.tests.SignupTest)  Time elapsed: 1.047 s  <<< FAILURE!
+java.lang.NumberFormatException: For input string: "28.0"
+	at com.qa.tests.SignupTest.createnewAccount(SignupTest.java:41)
+
+createnewAccount(com.qa.tests.SignupTest)  Time elapsed: 0.937 s  <<< FAILURE!
+java.lang.NumberFormatException: For input string: "10.0"
+	at com.qa.tests.SignupTest.createnewAccount(SignupTest.java:41)
+
+createnewAccount(com.qa.tests.SignupTest)  Time elapsed: 0.764 s  <<< FAILURE!
+java.lang.NumberFormatException: For input string: "26.0"
+	at com.qa.tests.SignupTest.createnewAccount(SignupTest.java:41)
+
